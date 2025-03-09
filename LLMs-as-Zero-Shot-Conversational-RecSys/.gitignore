@@ -1,0 +1,11 @@
+!*.py 
+!*.ipynb
+**/checkpoints/
+__pycache__/
+**/reports/
+*.pt
+.DS_Store
+*.pyc
+*.sh
+*.out
+*.tsv

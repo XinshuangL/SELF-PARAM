@@ -1,0 +1,4 @@
+condition,recall@1_mean,recall@1_se,recall@1_ci,ndcg@1_mean,ndcg@1_se,ndcg@1_ci,mrr@1_mean,mrr@1_se,mrr@1_ci,recall@5_mean,recall@5_se,recall@5_ci,ndcg@5_mean,ndcg@5_se,ndcg@5_ci,mrr@5_mean,mrr@5_se,mrr@5_ci,recall@10_mean,recall@10_se,recall@10_ci,ndcg@10_mean,ndcg@10_se,ndcg@10_ci,mrr@10_mean,mrr@10_se,mrr@10_ci,recall@20_mean,recall@20_se,recall@20_ci,ndcg@20_mean,ndcg@20_se,ndcg@20_ci,mrr@20_mean,mrr@20_se,mrr@20_ci
+recommendation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+discussion,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+all,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
