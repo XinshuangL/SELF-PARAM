@@ -61,12 +61,12 @@ with open('seq_results_tmp.json', 'w') as f:
     json.dump(results, f, indent=4)
 
 mean_result = {}
-for i in range(1 + len(cur_context_list)):
+for i in range(1 + args.num_samples_per_seq):
     for j in range(args.num_samples_per_seq):
-        mean_result[f'{i}-{j}'] = 0
+        mean_result[f'{i}-{j}'] = {'f1': 0, 'acc': 0}
 
-for result in range(results):
-    for i in range(1 + len(cur_context_list)):
+for result in results:
+    for i in range(1 + args.num_samples_per_seq):
         for j in range(args.num_samples_per_seq):
             mean_result[f'{i}-{j}']['f1'] += (result[f'{i}-{j}']['f1'] / len(results))
             mean_result[f'{i}-{j}']['acc'] += (result[f'{i}-{j}']['acc'] / len(results))
